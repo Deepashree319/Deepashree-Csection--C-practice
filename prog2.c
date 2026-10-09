@@ -1,10 +1,12 @@
 #include<stdio.h>
 int main()
 {
-   int a;
-   scanf("%d",&a);
-   if(a%400==0||a%100==0||a%4==0){
-   printf("leap year");
-   else {
-   printf("not a leap year");}
-
+//syntax;
+//res=operand1+operand2
+//int a=10;
+//int b=20;
+  int a=30,b=40,res=0;
+  res=a+b;
+  printf("Addition=%d\n",res);
+  printf("Subtraction=%d",a-b);
+}
