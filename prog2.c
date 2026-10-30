@@ -1,12 +1,16 @@
 #include<stdio.h>
 int main()
 {
-//syntax;
-//res=operand1+operand2
-//int a=10;
-//int b=20;
-  int a=30,b=40,res=0;
-  res=a+b;
-  printf("Addition=%d\n",res);
-  printf("Subtraction=%d",a-b);
+  char ch;
+  scanf("%c",&ch);
+  if (char>='A' && char<='z')||(char=='A'|| char=='E'|| char=='I'|| 
+  char=='0'|| char=='u'){
+  printf("vowel");}
+  else if  ((ch>='a'&& ch>='z') ||(ch=='a'||ch=='e'||
+  ch=='i'||char=='0'||cgar=='u'||)){
+  printf("constant");}
+  else{
+  printf("not a character");}
+  return 0;
 }
+  
